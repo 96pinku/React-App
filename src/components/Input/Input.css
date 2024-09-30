@@ -1,0 +1,52 @@
+.inputContainer{
+    display: flex;
+    width: 50%;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 1.5rem;
+    background-color: rgba(245, 54, 223, 0.7);
+    box-shadow: 8px 12px 6px green;
+}
+.inputContainer .heading{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.inputContainer .input{
+    padding: 0.5rem 1.3rem;
+    display: flex;
+    gap:1.5rem;
+}
+.inputContainer .input p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.inputContainer .input input{
+    padding: 0.5rem 0.5rem; 
+    border: 1px solid black;
+}
+.inputContainer .input button{
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    /* border: 1px solid dark blue; */
+    background-color: rgb(203, 216, 8);
+    color: rgb(222, 21, 21);
+}
+
+@media screen and (max-width: 1000px) {
+    .inputContainer{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 603px) {
+    
+    .input{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
